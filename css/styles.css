@@ -7598,10 +7598,10 @@ body {
     .features-list li:before {
       position: relative;
       font-family: FontAwesome;
+      
       font-size: 14px;
-      content: "\f10c";
       color: #d500f9;
-      margin: 0 .75rem 0 0; }
+      margin: 0 0 0 0; }
 
 
 
@@ -7625,7 +7625,7 @@ footer ul > li {
   padding: 0.5rem 0; }
 
 footer a {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(0, 0, 0, 0.7);
   text-decoration: none;
   font-weight: 500;
   transition: all 0.25s ease-out; }
@@ -7682,7 +7682,7 @@ footer h5 {
     background-color: #d500f9;
     transition: all .4s ease-in-out; }
   .scroll-top.active {
-    right: 20px; }
+    left: 20px; }
 
 /* Icon Boxes */
 .icon-box {
@@ -7821,3 +7821,40 @@ footer h5 {
   .switcher-wrap {
     display: none; } }
 
+
+
+    .contact .info {
+      width: 100%;
+    }
+    
+    .contact .info i {
+      font-size: 20px;
+      float: left;
+      width: 44px;
+      height: 44px;
+      background: #cda45e;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50px;
+      transition: all 0.3s ease-in-out;
+    }
+    
+    .contact .info h4 {
+      padding: 0 0 0 60px;
+      font-size: 18px;
+      font-weight: 500;
+      margin-bottom: 5px;
+      font-family: "Poppins", sans-serif;
+    }
+    
+    .contact .info p {
+      padding: 0 0 0 60px;
+      margin-bottom: 0;
+      font-size: 14px;
+      color: #bab3a6;
+    }
+    
+    .contact .info .open-hours, .contact .info .email, .contact .info .phone {
+      margin-top: 40px;
+    }
